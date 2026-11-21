@@ -1,0 +1,16 @@
+[project]
+name = "authlog-detector"
+version = "0.1.0"
+description = "Offline detector for SSH brute force, password spraying and account compromise in auth logs"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["authlog_detector"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

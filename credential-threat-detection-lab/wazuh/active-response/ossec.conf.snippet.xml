@@ -1,0 +1,19 @@
+<!--
+  Add inside <ossec_config> on the Wazuh manager (/var/ossec/etc/ossec.conf).
+  Round 1 runs with this block commented out (detection only); round 2 enables it.
+-->
+<ossec_config>
+  <global>
+    <!-- Never block the admin workstation or the manager itself -->
+    <white_list>192.168.100.50</white_list>
+    <white_list>192.168.100.30</white_list>
+  </global>
+
+  <active-response>
+    <disabled>no</disabled>
+    <command>firewall-drop</command>
+    <location>local</location>
+    <rules_id>100100,100102</rules_id>
+    <timeout>600</timeout>
+  </active-response>
+</ossec_config>

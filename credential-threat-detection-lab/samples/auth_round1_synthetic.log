@@ -1,0 +1,17 @@
+# SYNTHETIC log written by hand to test the detections. Not captured from a real system.
+# Lab network 192.168.100.0/24 - admin workstation .50, attacker .10, victim server "victim".
+Nov 20 09:58:11 victim sshd[1101]: Accepted publickey for labadmin from 192.168.100.50 port 51234 ssh2: ED25519 SHA256:examplefingerprint
+Nov 20 10:01:02 victim sshd[1201]: Failed password for labuser from 192.168.100.10 port 50122 ssh2
+Nov 20 10:01:04 victim sshd[1202]: Failed password for labuser from 192.168.100.10 port 50124 ssh2
+Nov 20 10:01:06 victim sshd[1203]: Failed password for labuser from 192.168.100.10 port 50126 ssh2
+Nov 20 10:01:08 victim sshd[1204]: Failed password for labuser from 192.168.100.10 port 50128 ssh2
+Nov 20 10:01:10 victim sshd[1205]: Failed password for labuser from 192.168.100.10 port 50130 ssh2
+Nov 20 10:01:12 victim sshd[1206]: Failed password for labuser from 192.168.100.10 port 50132 ssh2
+Nov 20 10:05:20 victim sshd[1301]: Invalid user admin from 192.168.100.10 port 50200
+Nov 20 10:05:20 victim sshd[1301]: Failed password for invalid user admin from 192.168.100.10 port 50200 ssh2
+Nov 20 10:05:23 victim sshd[1302]: Failed password for root from 192.168.100.10 port 50202 ssh2
+Nov 20 10:05:26 victim sshd[1303]: Invalid user test from 192.168.100.10 port 50204
+Nov 20 10:05:26 victim sshd[1303]: Failed password for invalid user test from 192.168.100.10 port 50204 ssh2
+Nov 20 10:05:29 victim sshd[1304]: Invalid user oracle from 192.168.100.10 port 50206
+Nov 20 10:05:29 victim sshd[1304]: Failed password for invalid user oracle from 192.168.100.10 port 50206 ssh2
+Nov 20 10:09:40 victim sshd[1401]: Accepted password for labuser from 192.168.100.10 port 50300 ssh2

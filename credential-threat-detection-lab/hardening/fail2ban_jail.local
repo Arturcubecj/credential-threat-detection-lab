@@ -1,0 +1,9 @@
+# /etc/fail2ban/jail.local  - second layer, independent of the SIEM
+[DEFAULT]
+ignoreip = 127.0.0.1/8 192.168.100.50 192.168.100.30
+bantime  = 600
+findtime = 60
+maxretry = 5
+
+[sshd]
+enabled = true

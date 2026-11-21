@@ -1,0 +1,7 @@
+# SYNTHETIC log for the expected "after hardening" behaviour: password auth disabled, source blocked.
+Nov 21 10:01:02 victim sshd[2201]: Failed publickey for labuser from 192.168.100.10 port 50122 ssh2
+Nov 21 10:01:04 victim sshd[2202]: Failed publickey for labuser from 192.168.100.10 port 50124 ssh2
+Nov 21 10:01:06 victim sshd[2203]: Failed publickey for labuser from 192.168.100.10 port 50126 ssh2
+Nov 21 10:01:08 victim sshd[2204]: Failed publickey for labuser from 192.168.100.10 port 50128 ssh2
+Nov 21 10:01:10 victim sshd[2205]: Failed publickey for labuser from 192.168.100.10 port 50130 ssh2
+Nov 21 10:02:30 victim sshd[2301]: Accepted publickey for labadmin from 192.168.100.50 port 51240 ssh2: ED25519 SHA256:examplefingerprint
